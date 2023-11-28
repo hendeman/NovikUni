@@ -35,7 +35,7 @@ app.include_router(
     prefix="/auth",
     tags=["auth"],
 )
-
+#Update Git
 current_user = fastapi_users.current_user()
 
 
